@@ -1,10 +1,13 @@
 package prog3.td.tdspring1;
 
+import lombok.Data;
+
+@Data
 public class Booking {
     private String clientName;
     private String clientPhone;
     private String clientEmail;
-    private int roomNumber;
+    private Integer roomNumber;
     private String roomDescription;
     private String reservationDate;
 
